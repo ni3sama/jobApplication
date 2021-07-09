@@ -1,0 +1,42 @@
+.jobList {
+  text-align: center;
+  margin-top: -30px;
+}
+.jobItem {
+  margin-top: 20px;
+  border: 2px transparent;
+  background-color: white;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 5px 5px #8888885b;
+}
+
+.jobItem ul {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 5px;
+}
+
+.applyButton {
+  text-align: center;
+  align-content: center;
+  float: right;
+  margin-top: -140px;
+  margin-right: 50px;
+  padding: 40px;
+  background-color: blanchedalmond;
+  border: transparent;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.applyButton:hover {
+  cursor: pointer;
+  background-color: rgb(250, 224, 184);
+  transition: 0.1s;
+}
+
+.jobItem {
+  font-size: 0.8rem;
+}

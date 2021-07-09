@@ -1,0 +1,46 @@
+.header {
+  background-color: white;
+  overflow: auto;
+}
+
+/*---nav bar CSS begins----*/
+
+.logoImage {
+  padding-right: 30px;
+}
+.navBar {
+  background-color: white;
+  padding: 10px 40px 15px 40px;
+  display: flex;
+  width: auto;
+}
+.navLeft {
+  align-items: flex-start;
+  padding-top: 13px;
+}
+.navRight {
+  margin-left: auto;
+  padding-top: 13px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 20px 20px 20px;
+}
+
+.navBar a:hover {
+  padding: 20px 20px 18px 20px;
+  border-bottom: 2px solid black;
+}
+
+/*---nav bar CSS ends----*/
+
+/*---main container CSS begins----*/
+
+.mainContainer {
+  text-align: center;
+  padding-top: 60px;
+}
+
+/*---main container CSS ends----*/
