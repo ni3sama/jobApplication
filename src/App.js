@@ -13,6 +13,8 @@ import {
   // Redirect
 } from "react-router-dom";
 
+
+
 function App() {
   return (
     <React.Fragment>
@@ -22,12 +24,12 @@ function App() {
           <img className="logoImage" src="/images/logo.png" width="150px" alt="logo"/>
           <div className="navLeft">
           <a href="/">Home</a> 
-          <a href="/recruiter">Recruiter</a> 
-          <a href="/applicant">Applicant</a>   
+          <a href="/">Contact Us</a> 
+          <a href="/">Email Us</a>   
           </div>
           
           <div className="navRight">
-            <a href="www.google.com">About</a>
+            <a href="/">About</a>
           </div>
         </div>
       </div>

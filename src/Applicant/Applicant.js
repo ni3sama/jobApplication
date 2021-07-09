@@ -10,7 +10,7 @@ function Applicant() {
 
   const [jobList, setJobList] = useState([])
 
-  
+  //check
   
 const getJob = () => {
   Axios.get('https://job-data.herokuapp.com/job').then((response)=> {
