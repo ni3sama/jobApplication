@@ -67,7 +67,7 @@ function Recruiter() {
           onChange={(event) => {setSalary(event.target.value)}}
           required/>
 
-        <label >Current City: </label>
+        <label >Job Location: </label>
         <input 
           type="text" 
           placeholder="Delhi, Mumbai..." 
