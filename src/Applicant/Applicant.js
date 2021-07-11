@@ -19,6 +19,7 @@ const getJob = () => {
 }
   return (
     <div className="formContainer">
+    <p>Disclaimer: This definitely works, if you see no data here, that means I am out of query request or reached the limit of the database plan, since this is a free hosted server.</p>
         <div className="jobList">
         <h1>Available Jobs!</h1>
          {getJob()}
